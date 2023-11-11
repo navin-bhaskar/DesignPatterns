@@ -1,7 +1,7 @@
 from typing import List
 
 from .base_startergy import BaseStratergy
-from console_display import *
+from text_display_helpers import *
 
 EXP = """Precalculation startegy pre-computes two arrays one that has maximum height 
 on left and and one that has maximum height on right of any given index 

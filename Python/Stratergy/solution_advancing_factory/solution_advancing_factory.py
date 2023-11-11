@@ -1,6 +1,6 @@
 import time
 
-DELAY = 1
+DELAY = 0.2
 
 
 def adv_with_input():

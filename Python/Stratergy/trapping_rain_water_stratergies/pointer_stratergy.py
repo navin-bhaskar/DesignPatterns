@@ -1,5 +1,5 @@
 from .base_startergy import BaseStratergy
-from console_display import *
+from text_display_helpers import *
 from typing import List
 
 EXP = """Pointer solution first takes maximum height (indicated as p) in the 

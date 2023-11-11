@@ -1,5 +1,5 @@
 from .base_startergy import BaseStratergy
-from console_display import *
+from text_display_helpers import *
 from typing import List
 
 EXP = """Brute force solution looks for maximum height towrads left (indicted by l)

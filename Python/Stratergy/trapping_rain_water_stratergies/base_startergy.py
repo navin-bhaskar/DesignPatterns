@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod
 import time
 import os
 from typing import List
-from console_display import ConsoleDisplayParams
+from text_display_helpers import DisplayParams
 
 
 class BaseStratergy:
@@ -39,7 +39,7 @@ class BaseStratergy:
         self._water = [0] * len(inp)
         self.n = len(inp)
         self._display_pipeline = []
-        self._params = ConsoleDisplayParams(self._input_arr, self._water, self._water)
+        self._params = DisplayParams(self._input_arr, self._water, self._water)
         self.vol = 0
         self._adv_method = advancing_option
         self._explanation = explanation + "\n"
