@@ -49,6 +49,7 @@ class BaseStratergy:
         step on the console
         """
         self.add_all_pipeline_items()
+        os.system("cls")
         print(self._explanation)
         print("Enter to continue")
         input()
