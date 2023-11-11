@@ -53,6 +53,6 @@ Once the application starts, follow the on screen instructions to select and vis
 # Demo
 
 
-https://github.com/navin-bhaskar/DesignPatterns/assets/3251693/f9cc6ded-73c6-49d6-a3df-748304f0f76e
+![video](https://github.com/navin-bhaskar/DesignPatterns/assets/3251693/f9cc6ded-73c6-49d6-a3df-748304f0f76e)
 
 
