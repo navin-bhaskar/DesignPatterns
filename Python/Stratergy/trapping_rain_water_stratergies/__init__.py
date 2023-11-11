@@ -1,0 +1,5 @@
+from .pointer_stratergy import PointerStratergy
+from .brute_force_stratergy import BruteForceStratergy
+from .precalculation_stratergy import PreCalculationStratergy
+from .base_startergy import BaseStratergy
+from .solution_exceptions import SolutionException
