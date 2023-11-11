@@ -1,5 +1,7 @@
 # Introduction
 
+![image](https://github.com/navin-bhaskar/DesignPatterns/assets/3251693/6014f828-c3b0-40fb-921a-df768e736277)
+
 Implements startergy design pattern to visualize various approaches to solve the 'trapping rain water' probem found [here](https://leetcode.com/problems/trapping-rain-water/) and [here](https://www.geeksforgeeks.org/trapping-rain-water/).
 The startegy pattern is used here to pick one of the following startegies to solve the problem
 
@@ -54,5 +56,9 @@ Once the application starts, follow the on screen instructions to select and vis
 
 
 https://github.com/navin-bhaskar/DesignPatterns/assets/3251693/f9cc6ded-73c6-49d6-a3df-748304f0f76e.mp4
+
+
+
+https://github.com/navin-bhaskar/DesignPatterns/assets/3251693/93bb3050-6065-4082-9d54-072a6ffd02af
 
 
