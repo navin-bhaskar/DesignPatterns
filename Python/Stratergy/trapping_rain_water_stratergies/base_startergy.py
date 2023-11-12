@@ -44,18 +44,22 @@ class BaseStratergy:
         self._adv_method = advancing_option
         self._explanation = explanation + "\n"
 
+    @staticmethod
+    def _clear_console():
+        print("\033c")
+
     def solve(self):
         """Calls the visualization piple line and displays each
         step on the console
         """
         self.add_all_pipeline_items()
-        os.system("cls")
+        self._clear_console()
         print(self._explanation)
         print("Enter to continue")
         input()
         for _ in self.solve_step():
             out = self.execute_display_pipleine()
-            os.system("cls")
+            self._clear_console()
             print(self._explanation)
             print(out)
             self._adv_method()
